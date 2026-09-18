@@ -1,0 +1,6 @@
+Transaction_Amount,Card_Age,Transaction_Type,Device_Type,Location,Merchant_Category,Card_Type,Date
+39.79,65,POS,Laptop,Sydney,Travel,Amex,14 August 2023
+1.19,186,Bank Transfer,Mobile,New York,Clothing,Mastercard,7 June 2023
+28.96,226,Online,Tablet,Mumbai,Restaurants,Visa,20 June 2023
+254.32,76,ATM Withdrawal,Tablet,New York,Clothing,Visa,7 December 2023
+31.28,140,POS,Mobile,Mumbai,Electronics,Mastercard,11 November 2023

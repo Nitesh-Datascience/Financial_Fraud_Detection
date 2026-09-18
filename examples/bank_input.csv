@@ -1,0 +1,6 @@
+amount,oldbalanceOrg,oldbalanceDest,type,branch,Acct type,Time of day,Date of transaction
+1526.5,0.0,0.0,PAYMENT,Espana,Savings,Afternoon,2018-01-03
+1620.17,0.0,0.0,PAYMENT,Honduras,Savings,Night,2018-01-05
+5689.82,0.0,0.0,PAYMENT,Indonesia,Savings,Morning,2018-01-07
+2211.07,0.0,0.0,PAYMENT,Estados Unidos,Savings,Afternoon,2018-01-06
+824.63,0.0,0.0,PAYMENT,Estados Unidos,Savings,Morning,2018-01-06

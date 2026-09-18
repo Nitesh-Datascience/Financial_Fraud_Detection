@@ -1,0 +1,6 @@
+amount,oldbalanceOrg,oldbalanceDest,type,branch,Acct type,Time of day,Date of transaction,risk_score,flagged_for_review
+1526.5,0.0,0.0,PAYMENT,Espana,Savings,Afternoon,2018-01-03,0.0005757880797373873,0
+1620.17,0.0,0.0,PAYMENT,Honduras,Savings,Night,2018-01-05,0.000552041950417597,0
+5689.82,0.0,0.0,PAYMENT,Indonesia,Savings,Morning,2018-01-07,0.00010289512168704829,0
+2211.07,0.0,0.0,PAYMENT,Estados Unidos,Savings,Afternoon,2018-01-06,0.0013601666775570171,0
+824.63,0.0,0.0,PAYMENT,Estados Unidos,Savings,Morning,2018-01-06,0.0013601666775570171,0

@@ -1,0 +1,53 @@
+{
+  "source": "bank_transactions.xlsx",
+  "raw_rows": 10127,
+  "excluded_unreviewed": 2,
+  "duplicate_rows_removed": 0,
+  "rows": 10125,
+  "fraud_count": 68,
+  "fraud_rate": 0.00671604938271605,
+  "missing_cells_raw": 58,
+  "split_method": "60/20/20 stratified random benchmark; not a future-time backtest",
+  "train_rows": 6075,
+  "validation_rows": 2025,
+  "test_rows": 2025,
+  "fit_cap": 20000,
+  "fit_rows": 6075,
+  "selected_model": "Gradient Boosting",
+  "selected_threshold": 0.9543216832227245,
+  "feature_columns": [
+    "amount",
+    "oldbalanceOrg",
+    "oldbalanceDest",
+    "type",
+    "branch",
+    "Acct type",
+    "Time of day",
+    "month",
+    "weekday",
+    "log_amount"
+  ],
+  "excluded_columns": [
+    "step",
+    "nameOrig",
+    "newbalanceOrig",
+    "nameDest",
+    "newbalanceDest",
+    "unusuallogin",
+    "isFlaggedFraud",
+    "Date of transaction",
+    "isFraud",
+    "Column1",
+    "isFraud - Copy",
+    "DayOfWeek",
+    "DayOfWeek(new)",
+    "label"
+  ],
+  "split_fraud_counts": {
+    "train": 41,
+    "validation": 14,
+    "test": 13
+  },
+  "source_sha256": "c9628983d1c5c3bfc66ed1080f4454e1a04e809b474ca31921affc8f080abe86",
+  "sklearn_version": "1.8.0"
+}

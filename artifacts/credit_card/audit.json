@@ -1,0 +1,40 @@
+{
+  "source": "credit_card_transactions.csv",
+  "raw_rows": 100000,
+  "excluded_unreviewed": 0,
+  "duplicate_rows_removed": 0,
+  "rows": 100000,
+  "fraud_count": 1000,
+  "fraud_rate": 0.01,
+  "missing_cells_raw": 0,
+  "split_method": "60/20/20 stratified random benchmark; not a future-time backtest",
+  "train_rows": 60000,
+  "validation_rows": 20000,
+  "test_rows": 20000,
+  "fit_cap": 20000,
+  "fit_rows": 20000,
+  "selected_model": "Gradient Boosting",
+  "selected_threshold": 0.4219730052419455,
+  "feature_columns": [
+    "Amount",
+    "TransactionType",
+    "Location",
+    "month",
+    "weekday",
+    "log_amount"
+  ],
+  "excluded_columns": [
+    "TransactionID",
+    "TransactionDate",
+    "MerchantID",
+    "IsFraud",
+    "label"
+  ],
+  "split_fraud_counts": {
+    "train": 600,
+    "validation": 200,
+    "test": 200
+  },
+  "source_sha256": "97035e5c1b3f262346380e23f8ae419ed90736116eafb309628dfd17214898f1",
+  "sklearn_version": "1.8.0"
+}

@@ -1,0 +1,47 @@
+{
+  "source": "synthetic_transactions.csv",
+  "raw_rows": 50000,
+  "excluded_unreviewed": 0,
+  "duplicate_rows_removed": 0,
+  "rows": 50000,
+  "fraud_count": 16067,
+  "fraud_rate": 0.32134,
+  "missing_cells_raw": 0,
+  "split_method": "60/20/20 approximate user-group split (no overlapping User_ID)",
+  "train_rows": 29863,
+  "validation_rows": 10208,
+  "test_rows": 9929,
+  "fit_cap": 20000,
+  "fit_rows": 20000,
+  "selected_model": "Random Forest",
+  "selected_threshold": 0.2902204030517307,
+  "feature_columns": [
+    "Transaction_Amount",
+    "Card_Age",
+    "Transaction_Type",
+    "Device_Type",
+    "Location",
+    "Merchant_Category",
+    "Card_Type",
+    "month",
+    "weekday",
+    "log_amount"
+  ],
+  "excluded_columns": [
+    "Transaction_ID",
+    "User_ID",
+    "Date",
+    "Account_Balance",
+    "Previous_Fraudulent_Activity",
+    "Daily_Transaction_Count",
+    "Fraud_Label",
+    "label"
+  ],
+  "split_fraud_counts": {
+    "train": 9576,
+    "validation": 3305,
+    "test": 3186
+  },
+  "source_sha256": "58b1c23d2a5946970f0638c15793554fa5ffba3b2d9963fa6142275690c3dc5d",
+  "sklearn_version": "1.8.0"
+}
